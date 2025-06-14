@@ -1,23 +1,29 @@
-# Core data science libraries
-pandas==2.0.3
-numpy==1.24.3
+# === FUNDAMENTALES ===
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
 
-# Statistical analysis
-scipy==1.11.1
+# === VISUALIZACIÓN ===
+matplotlib==3.8.4
+seaborn==0.13.2
+plotly==5.22.0
 
-# Visualization
-matplotlib==3.7.1
-seaborn==0.12.2
+# === IPYWIDGETS (para Jupyter, si usas notebooks interactivos) ===
+ipywidgets==8.1.2
+ipython==8.24.0
 
-# Machine Learning
-scikit-learn==1.3.0
-xgboost==1.7.6
+# === MACHINE LEARNING ===
+scikit-learn==1.4.2
+xgboost==2.0.3
 
-# Web app framework
-streamlit>=1.28.0
+# === STREAMLIT APP ===
+streamlit==1.34.0
 
-# File downloads (optional, si usas Google Drive)
-gdown>=4.6.0
+# === UTILIDADES ===
+gdown==5.1.0
 
-# Math operations (opcional, ya incluido en numpy/scipy)
-# math - incluido en Python por defecto
+# === GUARDADO DE MODELOS ===
+# (pickle y json vienen con Python)
+
+# === FECHAS Y ARCHIVOS ===
+# (datetime, os y warnings vienen con Python)
