@@ -122,15 +122,13 @@ Año N-2  →  Año N-1  →  Año N  →  [PREDICCIÓN] Año N+1
 La aplicación ofrece dos modos de análisis:
 
 #### 🔮 **Predicción Individual**
-```python
-# Ejemplo: Mike Trout
-2024: 0.891 OPS (Rango: 0.831-0.951)
-2025: 0.877 OPS (Rango: 0.817-0.937)  
-2026: 0.863 OPS (Rango: 0.803-0.923)
-```
+
+![Gráfico 1: Prediccion Mike Trout](Imagenes/Trout.jpg)
 
 #### 📊 **Predicción Múltiple**
 Comparación simultánea de múltiples jugadores para planificación de roster
+
+![Gráfico 2: Prediccion Multiple](Imagenes/PreMult.png)
 
 ### 🏢 **Aplicaciones Prácticas**
 
