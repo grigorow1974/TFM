@@ -261,7 +261,6 @@ Para validar la metodología, se probó retrospectivamente con **Cal Ripken Jr. 
 🏛️ **Universidad Complutense de Madrid (UCM)**  
 📧 **Email**: [grigorow@gmail.com]  
 💼 **LinkedIn**: [linkedin.com/in/sergio-grigorow-la-scalea-1a284133]  
-📈 **Especialización**: Análisis predictivo en deportes y series temporales
 
 ---
 
