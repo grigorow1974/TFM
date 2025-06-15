@@ -1,5 +1,3 @@
-Perfecto, ahora tengo la información actualizada. Con los resultados reales del modelo (Linear Regression con MAE: 0.0603 y mejora del 17.3% vs baseline) y el enlace al repositorio, aquí tienes un README actualizado y más ajustado a tu trabajo específico:
-
 # ⚾ Sistema Predictivo MLB - Análisis de Rendimiento Ofensivo con Machine Learning
 
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
