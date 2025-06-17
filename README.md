@@ -27,14 +27,14 @@ Sistema avanzado de análisis predictivo para Major League Baseball (MLB) que ut
 
 ## 🏆 Resultados del Modelo
 
-### 📊 Performance del Mejor Modelo (Linear Regression)
+### 📊 Performance del Mejor Modelo (Random Forest)
 
 | Métrica | Valor | Interpretación |
 |---------|-------|----------------|
-| **MAE** | **0.0603 OPS** | Error promedio de ~60 puntos de OPS |
-| **Mejora vs Baseline** | **+17.3%** | Superación significativa del carry-forward |
-| **RMSE** | 0.0804 | Penalización de errores grandes |
-| **R²** | 0.2891 | Varianza explicada del modelo |
+| **MAE** | **0.0606 OPS** | Error promedio de ~60 puntos de OPS |
+| **Mejora vs Baseline** | **+16.9%** | Superación significativa del carry-forward |
+| **RMSE** | 0.0767 | Penalización de errores grandes |
+| **R²** | 0.4960 | Varianza explicada del modelo |
 
 ### 🎯 Comparación de Modelos
 
@@ -198,20 +198,6 @@ streamlit==1.25.0      # Interface interactiva
 | **Fielding.csv** | 151,507 | 1940-2023 | Posiciones defensivas |
 
 **Fuente**: Base de datos histórica MLB (formato Lahman Database)
-
----
-
-## 🔍 Validación Externa - Caso Cal Ripken Jr.
-
-Para validar la metodología, se probó retrospectivamente con **Cal Ripken Jr. (1988-1998)**:
-
-```
-✅ Resultados de Validación:
-• MAE específico: 0.076 OPS
-• 8/10 predicciones dentro de bandas de confianza
-• Captura correctamente el declive post-peak
-• Demuestra robustez del modelo temporal
-```
 
 ---
 
