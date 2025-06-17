@@ -40,12 +40,12 @@ Sistema avanzado de análisis predictivo para Major League Baseball (MLB) que ut
 
 | Modelo | MAE | RMSE | R² | Mejora vs Baseline |
 |--------|-----|------|----|--------------------|
-| **Linear Regression** ⭐ | **0.0603** | 0.0804 | 0.2891 | **+17.3%** |
-| Random Forest | 0.0628 | 0.0826 | 0.2509 | +14.0% |
-| XGBoost | 0.0635 | 0.0834 | 0.2367 | +13.1% |
-| Baseline (Carry-forward) | 0.0730 | 0.0966 | 0.0000 | -- |
+| **Random Forest** | **0.0606** | 0.0767 | 0.4960 | **+16.9%** |
+| XGBoost | 0.0628 | 0.0793 | 0.4518 | +14.0% |
+| Gradient Boosting | 0.0628 | 0.0795 | 0.4583 | +14.0% |
+| Baseline (Carry-forward) | 0.0730 | 0.0913 | 0.0000 | -- |
 
-> **🔍 Interpretación**: El modelo Linear Regression logra predecir el OPS con un error promedio de 60 puntos, representando una mejora del 17.3% sobre el método naive de asumir que el rendimiento se mantiene constante.
+> **🔍 Interpretación**: El modelo Random Forest logra predecir el OPS con un error promedio de 60 puntos, representando una mejora del 16.9% sobre el método naive de asumir que el rendimiento se mantiene constante.
 
 ---
 
@@ -65,6 +65,7 @@ Sistema avanzado de análisis predictivo para Major League Baseball (MLB) que ut
 │   ├── temporal_predictive_model.pkl  # Modelo principal de predicción
 │   └── clustering_model.pkl           # Modelo de clustering
 └── 📄 requirements.txt                # Dependencias del proyecto
+└── 📄 gitignore.txt                   
 ```
 
 ---
