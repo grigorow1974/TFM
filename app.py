@@ -50,7 +50,7 @@ def cargar_artifacts():
     """Carga todos los artifacts usando el sistema de producción actualizado."""
     try:
         # ACTUALIZADO: Usar archivos de la Sección 12
-        with open('models/production_model.pkl', 'rb') as f:
+        with open('models/temporal_predictive_model.pkl', 'rb') as f:
             model_info = pickle.load(f)
         
         with open('models/app_functions.pkl', 'rb') as f:
